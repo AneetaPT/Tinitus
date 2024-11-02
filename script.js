@@ -29,10 +29,20 @@ const dialogueBox = document.getElementById('dialogueBox');
 const dialogueText = document.getElementById('dialogueText');
 
 const messages = [
-    "I'm just here for the hops!",
-    "Feeling froggy today!",
-    "Don't croak under pressure!",
-    "Why are frogs so happy? They eat whatever bugs them!"
+   "I'm just here for the hops!", "Feeling froggy today!", 
+    "Don't croak under pressure!", "Why are frogs so happy? They eat whatever bugs them!", 
+    "Just chilling on my lily pad!", "Leaping into life one hop at a time!", 
+    "Ribbit? More like, Ribb-IT!", "Frogs don't sweat the small stuff!",
+    "Don't worry, be hoppy!", "I'm a leap ahead of the rest!", 
+    "I’m all about that amphibian ambiance.", "What's a frog's favorite drink? Croak-a-Cola!",
+    "Feeling unfrogettable today!", "This face is 100% natural and ribbit-ious.",
+    "Here for the fly cuisine!", "Did you know? Frogs can breathe through their skin!",
+    "I’m kind of a big leap.", "Every hop counts!", 
+    "Frog fact: I can jump up to 20 times my body length!", 
+    "No bad vibes on this lily pad!", "I'm hoppy to see you!",
+    "Did you know? Some frogs can change colors!", 
+    "I've got a 'ribbiting' personality!", 
+    "Frogs were here even before dinosaurs—talk about staying power!"
 ];
 
 window.addEventListener('load', () => {
