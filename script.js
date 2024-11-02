@@ -35,6 +35,12 @@ const messages = [
     "Why are frogs so happy? They eat whatever bugs them!"
 ];
 
+window.addEventListener('load', () => {
+    const quoteElement = document.getElementById('frog-quote');
+    const randomQuote = messages[Math.floor(Math.random() * messages.length)];
+    quoteElement.textContent = randomQuote;
+});
+
 function showMessage() {
     const randomIndex = Math.floor(Math.random() * messages.length);
     dialogueText.textContent = messages[randomIndex];
@@ -46,42 +52,37 @@ function showMessage() {
 }
 
 function createBubbles() {
-    const bubbleCount = 10; // Number of bubbles to create
+    const bubbleCount = 10;
     const frogRect = frog.getBoundingClientRect();
 
     for (let i = 0; i < bubbleCount; i++) {
-        const delay = Math.random() * 300; // Random delay up to 300 milliseconds
+        const delay = Math.random() * 300;
 
         setTimeout(() => {
             const bubble = document.createElement('div');
             bubble.classList.add('bubble');
 
-            // Randomize position for each bubble
-            const bubbleX = frogRect.left-1 + frogRect.width / 2 - 20 + (Math.random() * 80); // More spread out
+            const bubbleX = frogRect.left + frogRect.width / 2 - 20 + (Math.random() * 80);
             bubble.style.left = `${bubbleX}px`;
-            bubble.style.bottom = `${frogRect.bottom + 5}px`; // Position above the frog
+            bubble.style.bottom = `${frogRect.bottom + 5}px`;
 
             document.body.appendChild(bubble);
 
-            // Remove the bubble after animation ends
             bubble.addEventListener('animationend', () => {
                 bubble.remove();
             });
-        }, delay * i); // Delay each subsequent bubble creation
+        }, delay * i);
     }
 }
 
 function jumpFrog() {
     frog.style.animation = 'jump 0.5s ease';
-
-    // Call createBubbles to generate multiple bubbles
     createBubbles();
 
     frog.addEventListener('animationend', () => {
-        frog.style.animation = ''; // Reset animation
+        frog.style.animation = '';
     });
 }
 
-// Event listeners for click and double-click
 frog.addEventListener('click', showMessage);
 frog.addEventListener('dblclick', jumpFrog);
