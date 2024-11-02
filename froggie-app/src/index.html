@@ -1,3 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frog Widget</title>
+    <style>
+        body {
+            background: transparent;
+            margin: 0;
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            user-select: none;
+        }
+        
+        #dragRegion {
+            -webkit-app-region: drag;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: auto;
+        }
+
+        frog-pet {
+            position: relative;
+            z-index: 1;
+            pointer-events: auto;
+        }
+
+        #closeButton {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.7);
+            border: none;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            -webkit-app-region: no-drag;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: auto;
+        }
+
+        body:hover #closeButton {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="dragRegion"></div>
+    <button id="closeButton">×</button>
+    <frog-pet></frog-pet>
+    <script src="frog-widget.js"></script>
+    <script>
+        // Add close button functionality
+        document.getElementById('closeButton').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.close();
+        });
+
+        // Prevent drag region from interfering with frog interactions
+        document.getElementById('dragRegion').addEventListener('mousedown', (e) => {
+            if (e.target === e.currentTarget) {
+                e.stopPropagation();
+            }
+        });
+    </script>
+</body>
+=======
 <!DOCTYPE html>
 <html>
 <head>
