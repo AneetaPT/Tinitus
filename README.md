@@ -8,9 +8,9 @@
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Angel Alint - Sahrdaya College Of Engineering And Technology
+- Member 2: Anand C - Sahrdaya College Of Engineering And Technology
+- Member 3: Abhika Paul- Sahrdaya College Of Engineering And Technology
 
 ### Project Description
 Our project is a digital pet frog. It tells you random puns and fun froggy facts.
@@ -89,11 +89,12 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1KiHPgWK7p8J-eeavEDrScxZxTSRNx0jh/view?usp=drive_link
+
+*The video demonstrates the working of our froggie friend widget *
 
 # Additional Demos
-[[Add any extra demo materials/links]](https://tinitus.vercel.app/)
+[Froggie-Friend-Website](https://tinitus.vercel.app/)
 
 ## Team Contributions
 - Angel Alint: Website and Design
