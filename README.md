@@ -59,8 +59,9 @@ For Software:
 
 *Jumping Froggie*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![WhatsApp Image 2024-11-03 at 01 59 41_aaac34d5](https://github.com/user-attachments/assets/cfd9ce6d-a100-46f9-9900-0aad953b079f)
+
+*Froggie Friend Widget*
 
 # Diagrams
 ![WhatsApp Image 2024-11-03 at 01 49 47_e10add17](https://github.com/user-attachments/assets/37b1157c-357f-40ff-9685-22804c3cee9b)
