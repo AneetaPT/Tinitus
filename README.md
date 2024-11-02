@@ -1,6 +1,6 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# Froggie Friend 🎯
+# Froggie Friend 🎯 
 
 
 ## Basic Details
@@ -93,7 +93,7 @@ For Hardware:
 *Explain what the video demonstrates*
 
 # Additional Demos
-[Add any extra demo materials/links]
+[[Add any extra demo materials/links]](https://tinitus.vercel.app/)
 
 ## Team Contributions
 - Angel Alint: Website and Design
