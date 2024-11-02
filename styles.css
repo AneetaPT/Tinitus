@@ -90,3 +90,37 @@ body {
     background-color: #000;
     border-radius: 70px; 
 }
+
+.dialog-box {
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 279px;
+    border: 2px solid #333;
+    width: 200px;  /* Set fixed width */
+    height: 50px;  /* Set fixed height */
+    text-align: center;
+    display: flex;  /* Add flex display */
+    align-items: center;  /* Center content vertically */
+    justify-content: center;  /* Center content horizontally */
+}
+
+/* Ensure the paragraph inside maintains consistent spacing */
+.dialog-box p {
+    margin: 0;
+    padding: 0;
+}
+
+.dialog-box:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+}
