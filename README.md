@@ -33,10 +33,7 @@ For Software:
 - JavaScript
 - Nodejs
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
 
 ## Implementation
 
