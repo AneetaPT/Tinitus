@@ -28,10 +28,10 @@ We have also created a website which can be used to interact with him.
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML
+- CSS
+- JavaScript
+- Nodejs
 
 For Hardware:
 - [List main components]
