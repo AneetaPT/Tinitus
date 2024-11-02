@@ -20,3 +20,17 @@ document.addEventListener("mousemove", (event) => {
     movePupil(leftPupil, leftEye, event);
     movePupil(rightPupil, rightEye, event);
 });
+
+const quotes = [
+    "I'm just here for the hops!",
+    "Feeling froggy today!",
+    "Don't croak under pressure!",
+    "Why are frogs so happy? They eat whatever bugs them!"
+];
+
+// Show random quote only once when page loads
+window.addEventListener('load', () => {
+    const quoteElement = document.getElementById('frog-quote');
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    quoteElement.textContent = randomQuote;
+});
