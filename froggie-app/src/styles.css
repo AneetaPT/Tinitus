@@ -1,3 +1,4 @@
+
 .FrogPetWidget {
   position: relative;
   width: 100%;
@@ -60,4 +61,68 @@
 
 .eye.two {
     left: calc(30% + 45px);
+=======
+.FrogPetWidget {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #90c290;
+  overflow: visible;
+  padding: 20px;
+}
+
+.frog-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 300px;
+    position: relative;
+    padding: 10px;
+    transform: translateX(-25%);
+}
+
+.dialog-box {
+    position: relative;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 40px;
+    transform: translateX(-20%);
+}
+
+.frog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 120px;
+    transform: scale(0.8);
+}
+
+.frogface {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    background-color: #53b28f;
+    height: 80px;
+    width: 200px;
+    border-radius: 45%;
+    top: 40px;
+    z-index: 2;
+}
+
+.eye.one {
+    left: calc(30% - 80px);
+}
+
+.eye.two {
+    left: calc(30% + 45px);
+
 }
