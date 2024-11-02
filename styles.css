@@ -90,3 +90,35 @@ body {
     background-color: #000;
     border-radius: 70px; 
 }
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50px); /* Adjust the height of the jump */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes bubbleAnimation {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-50px);
+        opacity: 0; /* Fade out */
+    }
+}
+
+.bubble {
+    position: absolute;
+    border:1px solid #000;
+    background-color: rgb(132, 227, 232); /* Color of the bubble */
+    border-radius: 50%;
+    width: 20px; /* Size of the bubble */
+    height: 20px; /* Size of the bubble */
+    pointer-events: none; /* Prevent interaction */
+    animation: bubbleAnimation 1s forwards; /* Animate the bubble */
+}
