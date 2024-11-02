@@ -1,10 +1,10 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Froggie Friend 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name:Tinitus
 
 
 ### Team Members
@@ -50,18 +50,23 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![WhatsApp Image 2024-11-03 at 01 42 12_86afba4b](https://github.com/user-attachments/assets/9e64d763-a7ad-43c6-aa09-65fea9420867)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*Chilling Froggie*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+
+![WhatsApp Image 2024-11-03 at 01 43 21_3cbe1fd1](https://github.com/user-attachments/assets/9a6d4546-df66-4661-bb4c-344f3b00bac9)
+
+*Jumping Froggie*
+
+![WhatsApp Image 2024-11-03 at 01 59 41_aaac34d5](https://github.com/user-attachments/assets/cfd9ce6d-a100-46f9-9900-0aad953b079f)
+
+*Froggie Friend Widget*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![WhatsApp Image 2024-11-03 at 01 49 47_e10add17](https://github.com/user-attachments/assets/37b1157c-357f-40ff-9685-22804c3cee9b)
+
+*Flowchart*
 
 For Hardware:
 
@@ -91,9 +96,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Angel Alint: Website and Design
+- Anand C: Website and App Development
+- Abhika Paul: Website and Documentation
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
