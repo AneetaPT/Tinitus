@@ -77,7 +77,7 @@ The implementation of the *Useless Project* involved creating both a website and
 
 1. **Navigate to the Desktop App Directory**
    ```bash
-   cd ../desktop-app
+   cd ../froggie-app
    
 2. **Install Dependencies**
    ```bash
@@ -104,7 +104,7 @@ To run the project, use the following commands:
 
 1. **Navigate to the Desktop App Directory**
    ```bash
-   cd ../desktop-app
+   cd ../froggie-app
    
 2. **Install Dependencies**
    ```bash
